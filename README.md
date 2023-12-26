@@ -55,18 +55,22 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 
 | Epoch | Training Loss | Validation Loss | Precision | Recall | F1 | Accuracy |
 |-------|----------------|------------------|-----------|--------|----|----------|
-| 1     | -              | -                | -         | -      | -  | -        |
-| 2     | -              | -                | -         | -      | -  | -        |
+| 1     | 0.016100              | 0.025468                | 0.928652         | 0.943077      | 0.935809  | 0.991401        |
+| 2     | 0.007900              | 0.029986                | 0.935057         | 0.945515      | 0.940257  | 0.991794        |
+| 3     | 0.004300              | 0.034900                | 0.936945         | 0.943842      | 0.940381  | 0.991845        |
+
+
 
 #### Test Set Metrics
 
 | Metric   | Value      |
 |----------|------------|
-| Accuracy | -          |
-| Precision| -          |
-| Recall   | -          |
-| F1       | -          |
+| Accuracy | 0.9916259635472948          |
+| Precision| 0.9374331321949758          |
+| Recall   | 0.9540089717346806          |
+| F1       | 0.94564841996201          |
 
+ 
 ---
 
 This template provides a structure for presenting the training and test set metrics for both System A and System B. Replace the placeholders with the actual values when you have the results.
