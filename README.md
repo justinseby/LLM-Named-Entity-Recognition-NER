@@ -37,17 +37,19 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 
 | Epoch | Training Loss | Validation Loss | Precision | Recall | F1 | Accuracy |
 |-------|----------------|------------------|-----------|--------|----|----------|
-| 1     | -              | -                | -         | -      | -  | -        |
-| 2     | -              | -                | -         | -      | -  | -        |
+| 1     |0.032200	|0.048987	|0.888514	|0.890288	|0.889400	|0.982626|
+| 2     |0.018300|	0.055056|	0.898208|	0.895242|	0.896723|	0.983373      |
+| 3     | 	0.012000	|0.060297	|0.891088|	0.902346|	0.896682|	0.983301    |
+
 
 #### Test Set Metrics
 
 | Metric   | Value      |
 |----------|------------|
-| Accuracy | -          |
-| Precision| -          |
-| Recall   | -          |
-| F1       | -          |
+| Accuracy | 0.9874216555003242         |
+| Precision|  0.9161662817551963          |
+| Recall   | 0.9281341392084227        |
+| F1       | 0.9221113801452784          |
 
 ### System B
 
