@@ -1,0 +1,8 @@
+transformers
+datasets
+pandas
+seqeval
+matplotlib
+seaborn
+wordcloud
+plotly
