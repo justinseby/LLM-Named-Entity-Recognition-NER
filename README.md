@@ -10,7 +10,7 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 - **Objective:**
   - Explore the MultiNERD dataset and gain insights into its structure and characteristics.
   - Understand the distribution of entity types and relevant patterns.
-  - For example, Please find below the ![Interactive NER Distribution](relative/path/to/image.jpg)
+  - For example, Please find below the ![Interactive NER Distribution](interactive NER distribution.png)
 
 ### 2. SystemA_RISE.ipynb
 
