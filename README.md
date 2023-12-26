@@ -76,4 +76,10 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 ---
 
 This template provides a structure for presenting the training and test set metrics for both System A and System B. Replace the placeholders with the actual values when you have the results.
-## Additional Resources
+## Result discussions (Max 200 words)
+
+The choice of the model architecture, specifically 'distillery-base-uncased,' significantly influenced the performance of both Systems. 
+
+The superior performance of System B can be attributed to its focused approach, which means that the model is trained to predict only five specific entity types, namely PERSON, ORGANIZATION, LOCATION, DISEASES, and ANIMAL, along with the 'O' tag. By narrowing the prediction scope, the model gains a more specialized understanding of these entity categories. This allows it to allocate more attention and resources to capturing the intricacies and nuances associated with these specific types. This focused training not only streamlines the learning process but also reduces the potential confusion that may arise from a broader set of entity types. System B, having a clearer objective, excels in recognizing and distinguishing between the designated entities, leading to heightened precision, recall, and overall model performance. Additionally, the reduced label space minimizes the likelihood of misclassifications, contributing to the model's enhanced accuracy on the test set.
+
+While these models achieve impressive results, it's important to recognize their potential limitations such as data biases and limited scope for generalization. A more comprehensive exploration of the model, including hyperparameter tuning and diverse dataset augmentation, can improve the model's robustness.
