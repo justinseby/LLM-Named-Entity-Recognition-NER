@@ -25,11 +25,11 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
   - Evaluate the performance of System B.
 
 
-### Instructions to Run the Notebooks
+## Instructions to Run the Notebooks
 
 
 
-### Evaluation Metrics
+## Evaluation Metrics
 
 - Report and discuss the performance of System A and System B using the chosen evaluation metric(s).
 
