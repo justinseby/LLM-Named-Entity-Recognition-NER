@@ -27,6 +27,30 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 
 ## Instructions to Run the Notebooks
 
+To replicate the experiments and results from this project, follow the steps below. Ensure that you have Python and Jupyter Notebook installed on your machine.
+
+## Step 1: Clone the Repository
+
+```bash
+git clone <repository_url>
+cd <repository_directory>
+```
+
+## Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+This command will install all the required Python packages specified in the `requirements.txt` file.
+
+## Step 3: Run the Notebooks
+
+```bash
+jupyter notebook Filename
+```
+
+
 
 
 ## Evaluation Metrics
