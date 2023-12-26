@@ -10,19 +10,19 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 
 ## Notebooks Explanation
 
-### 1. EDA.ipynb
+### 1. Dataset_Exploration_(EDA).ipynb
 
 - **Objective:**
   - Explore the MultiNERD dataset and gain insights into its structure and characteristics.
   - Understand the distribution of entity types and relevant patterns.
 
-### 2. System_A.ipynb
+### 2. SystemA_RISE.ipynb
 
 - **Objective:**
   - Fine-tune a pre-trained language model on the English subset of the training set (System A).
   - Evaluate the model's performance on relevant metrics.
 
-### 3. System_B.ipynb
+### 3. SystemB_RISE.ipynb
 
 - **Objective:**
   - Modify the dataset to predict five entity types (PERSON, ORGANIZATION, LOCATION, DISEASES, ANIMAL) and the 'O' tag.
