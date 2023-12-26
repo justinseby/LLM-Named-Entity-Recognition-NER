@@ -31,6 +31,43 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 
 ## Evaluation Metrics
 
-- Report and discuss the performance of System A and System B using the chosen evaluation metric(s).
+### System A
 
+#### Training Metrics
+
+| Epoch | Training Loss | Validation Loss | Precision | Recall | F1 | Accuracy |
+|-------|----------------|------------------|-----------|--------|----|----------|
+| 1     | -              | -                | -         | -      | -  | -        |
+| 2     | -              | -                | -         | -      | -  | -        |
+
+#### Test Set Metrics
+
+| Metric   | Value      |
+|----------|------------|
+| Accuracy | -          |
+| Precision| -          |
+| Recall   | -          |
+| F1       | -          |
+
+### System B
+
+#### Training Metrics
+
+| Epoch | Training Loss | Validation Loss | Precision | Recall | F1 | Accuracy |
+|-------|----------------|------------------|-----------|--------|----|----------|
+| 1     | -              | -                | -         | -      | -  | -        |
+| 2     | -              | -                | -         | -      | -  | -        |
+
+#### Test Set Metrics
+
+| Metric   | Value      |
+|----------|------------|
+| Accuracy | -          |
+| Precision| -          |
+| Recall   | -          |
+| F1       | -          |
+
+---
+
+This template provides a structure for presenting the training and test set metrics for both System A and System B. Replace the placeholders with the actual values when you have the results.
 ## Additional Resources
