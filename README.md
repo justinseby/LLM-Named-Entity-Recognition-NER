@@ -14,14 +14,14 @@ This project focuses on training and evaluating a Named Entity Recognition (NER)
 ### 2. SystemA_RISE.ipynb
 
 - **Objective:**
-  - Fine-tune a pre-trained language model on the English subset of the training set (System A).
+  - Fine-tune a pre-trained language model(distilbert-base-uncased) on the English subset of the training set (System A).
   - Evaluate the model's performance on relevant metrics.
 
 ### 3. SystemB_RISE.ipynb
 
 - **Objective:**
   - Modify the dataset to predict five entity types (PERSON, ORGANIZATION, LOCATION, DISEASES, ANIMAL) and the 'O' tag.
-  - Fine-tune the model on the filtered dataset (System B).
+  - Fine-tune the model(distilbert-base-uncased) on the filtered dataset (System B).
   - Evaluate the performance of System B.
 
 
@@ -102,7 +102,7 @@ jupyter notebook Filename
 This template provides a structure for presenting the training and test set metrics for both System A and System B. Replace the placeholders with the actual values when you have the results.
 ## Result discussions (Max 200 words)
 
-The choice of the model architecture, specifically 'distillery-base-uncased,' significantly influenced the performance of both Systems. 
+The choice of the model architecture, specifically 'distilbert-base-uncased,' significantly influenced the performance of both Systems. 
 
 The superior performance of System B can be attributed to its focused approach, which means that the model is trained to predict only five specific entity types, namely PERSON, ORGANIZATION, LOCATION, DISEASES, and ANIMAL, along with the 'O' tag. By narrowing the prediction scope, the model gains a more specialized understanding of these entity categories. This allows it to allocate more attention and resources to capturing the intricacies and nuances associated with these specific types. This focused training not only streamlines the learning process but also reduces the potential confusion that may arise from a broader set of entity types. System B, having a clearer objective, excels in recognizing and distinguishing between the designated entities, leading to heightened precision, recall, and overall model performance. Additionally, the reduced label space minimizes the likelihood of misclassifications, contributing to the model's enhanced accuracy on the test set.
 
